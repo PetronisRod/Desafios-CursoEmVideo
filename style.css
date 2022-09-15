@@ -1,0 +1,66 @@
+h1 {
+    align-self:center;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    padding: 10px;
+    background-color: rgb(150, 132, 182);
+    color: black;
+}
+section{
+    min-width: 450px;
+    align-self: center;
+    max-width: fit-content;
+    background-color: rgb(211, 204, 204);
+    text-align: center;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+    box-shadow: 3px 3px 5px darkgray;
+}
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+    border-style: double;
+    font-size: auto;
+    margin: 20px;
+    font-size: medium;
+
+}
+button:hover{
+    background-color: rgba(150, 132, 182, 0.479);
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: lightblue;
+    border-style: double;
+    font-size: auto;
+    margin: 20px;
+
+}
+a{
+    
+    text-decoration: none;
+    display: grid;
+    grid-row: row;
+    justify-content: left;
+    text-align: left;
+    text-indent: 0%;
+    color: black;
+    margin-bottom: 2px;
+    
+}
+a:hover{
+    background-color: lightblue;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding-left: 10px;
+}
+div{
+    text-align: center;
+}
